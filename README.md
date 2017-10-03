@@ -23,6 +23,12 @@ assert.deepEqual(extract(html), expected, 'array was same')
 Get an array of ids for the given string. Uses a regex so safe to run on
 non-html strings too. Returns the first ID per DOM element. Returns an empty array if no matches are found.
 
+## See Also
+
+- [yoshuawuyts/inline-critical-css](https://github.com/yoshuawuyts/inline-critical-css)
+- [yoshuawuyts/extract-html-tag](https://github.com/yoshuawuyts/extract-html-tag )
+- [yoshuawuyts/extract-html-class](https://github.com/yoshuawuyts/extract-html-class)
+
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
