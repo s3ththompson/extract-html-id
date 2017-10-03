@@ -1,0 +1,24 @@
+{
+  "name": "extract-html-id",
+  "description": "Extract all ids from html",
+  "repository": "s3ththompson/extract-html-id",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps && node test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0"
+  },
+  "keywords": [
+    "html",
+    "id",
+    "extract",
+    "regex"
+  ],
+  "license": "MIT"
+}
